@@ -20,5 +20,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	region : attributes.uriParams.region
 }]]]></http:uri-params>
 		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="fda43342-f5f0-41ef-9c90-a4f93a7cea13" message="Test to Commit "/>
 	</flow>
 </mule>
